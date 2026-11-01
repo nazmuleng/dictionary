@@ -1,0 +1,1 @@
+Load manifest.json first, then fetch only the required alphabet file, e.g. a.json. Each file is a JSON array. Missing fields are empty arrays. The other.json shard contains headwords not starting with A-Z.
