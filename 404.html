@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Fast English to Bengali dictionary with pronunciation, meanings, synonyms, antonyms and examples.">
+<meta name="theme-color" content="#0f766e">
+<title>English–Bengali Dictionary</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="./" aria-label="Dictionary home">English–Bengali Dictionary</a><button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle theme">◐</button></header>
+<main>
+<section class="search-panel">
+<form id="searchForm" role="search" autocomplete="off">
+<label class="sr-only" for="searchInput">Search an English word</label>
+<div class="searchbox"><input id="searchInput" type="search" inputmode="search" placeholder="Search an English word" maxlength="100" autofocus><button type="submit">Search</button></div>
+<div id="suggestions" class="suggestions" role="listbox" hidden></div>
+</form>
+<nav id="alphabet" class="alphabet" aria-label="Browse by alphabet"></nav>
+</section>
+<section id="status" class="status" aria-live="polite"></section>
+<section id="results" class="results"></section>
+<nav id="pagination" class="pagination" aria-label="Result pages"></nav>
+</main>
+<footer>125,521 English entries</footer>
+<script src="app.js" defer></script>
+</body></html>
