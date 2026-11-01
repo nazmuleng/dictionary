@@ -1,0 +1,135 @@
+{
+  "format_version": 1,
+  "total_unique_english_words": 125521,
+  "shards": {
+    "a": {
+      "file": "a.json",
+      "entries": 7791
+    },
+    "b": {
+      "file": "b.json",
+      "entries": 7672
+    },
+    "c": {
+      "file": "c.json",
+      "entries": 12213
+    },
+    "d": {
+      "file": "d.json",
+      "entries": 7333
+    },
+    "e": {
+      "file": "e.json",
+      "entries": 5201
+    },
+    "f": {
+      "file": "f.json",
+      "entries": 5776
+    },
+    "g": {
+      "file": "g.json",
+      "entries": 4161
+    },
+    "h": {
+      "file": "h.json",
+      "entries": 4844
+    },
+    "i": {
+      "file": "i.json",
+      "entries": 5005
+    },
+    "j": {
+      "file": "j.json",
+      "entries": 1133
+    },
+    "k": {
+      "file": "k.json",
+      "entries": 1071
+    },
+    "l": {
+      "file": "l.json",
+      "entries": 4181
+    },
+    "m": {
+      "file": "m.json",
+      "entries": 6864
+    },
+    "n": {
+      "file": "n.json",
+      "entries": 2973
+    },
+    "o": {
+      "file": "o.json",
+      "entries": 2794
+    },
+    "p": {
+      "file": "p.json",
+      "entries": 10150
+    },
+    "q": {
+      "file": "q.json",
+      "entries": 603
+    },
+    "r": {
+      "file": "r.json",
+      "entries": 6654
+    },
+    "s": {
+      "file": "s.json",
+      "entries": 13160
+    },
+    "t": {
+      "file": "t.json",
+      "entries": 6762
+    },
+    "u": {
+      "file": "u.json",
+      "entries": 3172
+    },
+    "v": {
+      "file": "v.json",
+      "entries": 2011
+    },
+    "w": {
+      "file": "w.json",
+      "entries": 3226
+    },
+    "x": {
+      "file": "x.json",
+      "entries": 64
+    },
+    "y": {
+      "file": "y.json",
+      "entries": 402
+    },
+    "z": {
+      "file": "z.json",
+      "entries": 231
+    },
+    "other": {
+      "file": "other.json",
+      "entries": 74
+    }
+  },
+  "fields": [
+    "word",
+    "pronunciation",
+    "bangla_meaning",
+    "english_meaning",
+    "bangla_synonyms",
+    "english_synonyms",
+    "bangla_antonyms",
+    "english_antonyms",
+    "examples",
+    "part_of_speech",
+    "lemma",
+    "status",
+    "variants",
+    "sources"
+  ],
+  "notes": [
+    "Only supplied data is included. Missing fields are empty arrays.",
+    "No new definitions, synonyms, antonyms, pronunciations, or examples were invented.",
+    "Case and Unicode compatibility duplicates are consolidated; original forms and source lines are preserved in variants."
+  ]
+}
